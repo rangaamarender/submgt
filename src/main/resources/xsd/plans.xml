@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans xmlns="http://www.lucid.com/plans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.lucid.com/plans plans.xsd ">
+  <plan>
+    <planDescription>planDescription</planDescription>
+    <feature>
+      <featureDescription>featureDescription</featureDescription>
+    </feature>
+    <planLimit>
+      <planLimitDescription>planLimitDescription</planLimitDescription>
+    </planLimit>
+  </plan>
+</plans>

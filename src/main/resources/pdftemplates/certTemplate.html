@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+</head>
+<body>
+	#parse("header.html")
+	#parse("letterhead.html")
+	<div class="hSection">Enrollment Details</div>
+	<!--  Enrollment Details  -->
+	<div>
+		<table class="table-border">
+			<tr>
+				<td width="80%">
+					<table>
+						<thead>
+							<tr>
+								<th>Enrollment #</th>
+								<th>Class</th>
+								<th>Roll #</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1997</td>
+								<td>First Class</td>
+								<td>97</td>
+							</tr>
+							<tr>
+								<td colspan="3">Choose the correct category (as applicable)</td>
+							</tr>
+							<tr>
+								<td colspan="3">( ) General Scheduled ( ) Caste Schedule Tribe</td>
+							</tr>
+							<tr>
+								<td colspan="3">( ) Muslim ( ) Sikh ( ) Christanity ( ) Buddhist</td>
+							</tr>
+						</tbody>
+					</table>
+				<td class="right"><img class="logo" src="2.png" />
+			</tr>
+		</table>
+	</div>
+	<!--  Qualifying Exam Marks -->
+	<div class="hSection">Qualifying Exam Marks</div>
+	<div>
+		<table class="table-border">
+			<thead>
+				<tr>
+					<th>Year</th>
+					<th>Class</th>
+					<th>Marks Obtained</th>
+					<th>Total Marks</th>
+					<th>Percentage</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1997</td>
+					<td>First Class</td>
+					<td>97</td>
+					<td>100</td>
+					<td>97%</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<!--  STudent Details -->
+	<div class="hSection">Student Details</div>
+	<div>
+		<table class="table-border">
+			<thead>
+				<tr>
+					<th>Postsecondary Applicant</th>
+					<th>Grade Point Average Domain</th>
+					<th>Gpa Weighted Indicator</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>YES</td>
+					<td>High School</td>
+					<td>Weighted</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="table-border">
+			<thead>
+				<tr>
+					<th>Grade Point Average Cumulative</th>
+					<th>High School Percentile</th>
+					<th>High School Student Class Rank</th>
+					<th>High School Student Class Size</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>3.4</td>
+					<td>85</td>
+					<td>3</td>
+					<td>50</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="table-border">
+			<thead>
+				<tr>
+					<th>Prefix</th>
+					<th>First Name</th>
+					<th>Middle Name</th>
+					<th>Last Name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mr.</td>
+					<td>Mike</td>
+					<td>Andreson</td>
+					<td>Richard</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="table-border">
+			<thead>
+				<tr>
+					<th>Generation Code</th>
+					<th>Gender</th>
+					<th>Birth Date</th>
+					<th>Tribal Affiliation</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mr.</td>
+					<td>Male</td>
+					<td>10-MAY-2002</td>
+					<td>General Schedule</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="hSection">Student Address Details</div>
+	<div>
+		<table class="table-border">
+			<thead>
+				<tr>
+					<th>Location Type</th>
+					<th>Address</th>
+					<th>Do Not Publish</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mailing</td>
+					<td>100 Park Road<br>Main street <br> Hyderabad 12345 <br> INDIA
+					</td>
+					<td>YES</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	#parse("footer.html")
+	<div class="next-page">
+		<br>
+		<div class="hSection">Student Parent/Guardian Details</div>
+		<div>
+			<table class="table-border">
+				<thead>
+					<tr>
+						<th>First Name</th>
+						<th>Middle Name</th>
+						<th>Last Name</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>FATHER</td>
+						<td>FATHER</td>
+						<td>FATHER</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>Relationship Type</th>
+						<th>Custodial Relationship</th>
+						<th>Address</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>FATHER</td>
+						<td>NO</td>
+						<td>100 Park Road<br>Main street <br> Hyderabad 12345 <br> INDIA
+						</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>Emergency Contact</th>
+						<th>Contact Priority</th>
+						<th>Contact Restrictions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>123456789</td>
+						<td>1</td>
+						<td>--NONE--</td>
+					</tr>
+				</tbody>
+				<thead>
+					<tr>
+						<th>Contact Restrictions</th>
+						<th>Lives with</th>
+						<th>Primary Contact</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>YES</td>
+						<td>YES</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="hSection">Student Academic Qualifications</div>
+		<div>
+			<table class="table-border">
+				<thead>
+					<tr>
+						<th>Academic Year</th>
+						<th>Academic Term</th>
+						<th>Grade Point Average</th>
+						<th>Grade Point Average Cumulative</th>
+						<th>Entering Term</th>
+						<th>Course Total</th>
+						<th>Credit Hours</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>2021</td>
+						<td>TERM1</td>
+						<td>3.4</td>
+						<td>3.4</td>
+						<td>TERM1</td>
+						<td>3.4</td>
+						<td>100</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	#parse("footer.html")
+	<div class="next-page">
+		<h3 class="center">Declaration of Mother/Father or Lawful Guardian</h3>
+		<p>We certify that all the information given by out Son / Daughter / Ward in this application is true. Have
+			studied all the rules/instructions and arrangements mentioned in the prospectus of the college. Will pay special
+			attention in relation to conduct, actions, discipline, attendance, daily progress and behavior during the study
+			period in the college. Will continue to give full cooperation to the college while being responsible. Before filling
+			the examination application form by our Son / Daughter / Ward or by term-end if the desired attendance is less that
+			75 percent there wil be on objection.</p>
+		<table class="table-border">
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Middle Name</th>
+					<th>Last Name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>FATHER</td>
+					<td>FATHER</td>
+					<td>FATHER</td>
+				</tr>
+			</tbody>
+			<thead>
+				<tr>
+					<th>Relationship Type</th>
+					<th>Custodial Relationship</th>
+					<th>Address</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>FATHER</td>
+					<td>NO</td>
+					<td>100 Park Road<br>Main street <br> Hyderabad 12345 <br> INDIA
+					</td>
+				</tr>
+			</tbody>
+			<thead>
+				<tr>
+					<th>Emergency Contact</th>
+					<th>Contact Priority</th>
+					<th>Contact Restrictions</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>123456789</td>
+					<td>1</td>
+					<td>--NONE--</td>
+				</tr>
+			</tbody>
+			<thead>
+				<tr>
+					<th>Contact Restrictions</th>
+					<th>Lives with</th>
+					<th>Primary Contact</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>YES</td>
+					<td>YES</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="table-border">
+			<thead>
+				<tr>
+					<th>Date</th>
+					<th>Father/Guardian Signature</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>10-JUN-2021</td>
+					<td>SIGNATURE</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	#parse("footer.html")
+	<div class="next-page">
+		<h3 class="center">Student Declaration</h3>
+		<p>
+			I, <strong>{{studentName}}</strong> Father's Name <strong>{{fatherName}}</strong> Permanent Address <strong>{{permanentAddress}}</strong>,
+			Current Address {{currentAddress}} Landline # {{landlineNbr}}, Mobile # {{mobileNbr}} Class {{class}} has given the
+			application form for admission. I originally am {{residentAddress}} a resident of. Nor is any criminal case
+			registered in any police station at present.
+		</p>
+		<p>No challan related to any criminal case has not been presented against me in any court. Nor is there any case
+			pending in the court as of now.</p>
+		<p>If any criminal facts / important facts are revealed after admission, then expulsion/ suspension and
+			disciplinary action will be taken against the Student.</p>
+		<p>The above information is absolutely true.</p>
+		<table class="table-border">
+			<thead>
+				<tr>
+					<th>Prefix</th>
+					<th>First Name</th>
+					<th>Middle Name</th>
+					<th>Last Name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mr.</td>
+					<td>Mike</td>
+					<td>Andreson</td>
+					<td>Richard</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="table-border">
+			<thead>
+				<tr>
+					<th>Date</th>
+					<th>Student Signature</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>10-JUN-2021</td>
+					<td>SIGNATURE</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	#parse("footer.html")
+	<div class="next-page">
+		<h3 class="center">Submit the following Mark Sheets / Certificates:</h3>
+		<p>
+		<ul>
+			<li>Copy of mark sheet of the last qualifying examination</li>
+			<li>Copy of mark sheet of High school (10th) examination for date of birth (at the time of first admission)
+			<li>Other certificates as required such as: Transfer Certificate / Character Certificate / Nativity or Caste
+				Certificate / Income Certificate / Migration Certificate / Residence Certificate / Eligibility Certificate /
+				Disability Certificate / Freedom Fighter Certificate / N.C.C. / N.S.S. / Sports related Certificates / Oath
+				Certificated related to Gap / Photocopy of transfer order.</li>
+		</ul>
+		</p>
+		<p>Note: If the name appears in the admission list, at the time of admission, along with all the originial
+			certificates / mark sheets, be present before the admission committee for verification.
+	</div>
+	#parse("footer.html")
+</body>
+</html>

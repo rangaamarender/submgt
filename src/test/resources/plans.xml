@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans xmlns="http://www.lucid.com/plans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <plan planCode="BASE">
+        <planDescription>BASE - A primitive plan with minimum features</planDescription>
+        <planAmount>100.0</planAmount>
+        <feature featureCode="ATS">
+            <featureDescription>Applicant Tracking
+            </featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="OBOARD">
+            <featureDescription>On boarding
+            </featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="CMPNS">
+            <featureDescription>Compensation</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="PYR">
+            <featureDescription>Payroll</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="VM">
+            <featureDescription>Vendor Management</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <planLimit planLimitCode="JOB-POSTS">
+            <planLimitDescription>JOB Posting</planLimitDescription>
+            <credits>10</credits>
+        </planLimit>
+        <planLimit planLimitCode="EMPLOYEE-COUNT">
+            <planLimitDescription># of employees in the system</planLimitDescription>
+            <credits>10</credits>
+        </planLimit>
+    </plan>
+    <plan planCode="STANDARD">
+        <planDescription>BASE - A primitive plan with minimum features</planDescription>
+        <planAmount>100.0</planAmount>
+        <feature featureCode="ATS">
+            <featureDescription>Applicant Tracking</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="BS">
+            <featureDescription>Background Screening
+            </featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="OBOARD">
+            <featureDescription>On boarding
+            </featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="ASMNT">
+            <featureDescription>Assessments</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="CMPNS">
+            <featureDescription>Compensation</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="PYR">
+            <featureDescription>Payroll</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="TA">
+            <featureDescription>Time and Attendance</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="HM">
+            <featureDescription>Health Care Management</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <planLimit planLimitCode="JOB-POSTS">
+            <planLimitDescription>JOB Posting</planLimitDescription>
+            <credits>100</credits>
+        </planLimit>
+        <planLimit planLimitCode="EMPLOYEE-COUNT">
+            <planLimitDescription># of employees in the system</planLimitDescription>
+            <credits>100</credits>
+        </planLimit>
+        <planLimit planLimitCode="BC-COUNT">
+            <planLimitDescription># of background checks allowed in the system
+            </planLimitDescription>
+            <credits>10</credits>
+        </planLimit>
+        <planLimit planLimitCode="HC-COUNT">
+            <planLimitDescription># of health care management integration allowed in the system
+            </planLimitDescription>
+            <credits>10</credits>
+        </planLimit>
+    </plan>
+    <plan planCode="PRO">
+        <planDescription>BASE - A primitive plan with minimum features</planDescription>
+        <planAmount>100.0</planAmount>
+        <feature featureCode="ATS">
+            <featureDescription>Applicant Tracking</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="BS">
+            <featureDescription>Background Screening
+            </featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="OBOARD">
+            <featureDescription>On boarding</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="ASMNT">
+            <featureDescription>Assessments</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="TM">
+            <featureDescription>Talent Management</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="CMPNS">
+            <featureDescription>Compensation</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="PYR">
+            <featureDescription>Payroll</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="TA">
+            <featureDescription>Time and Attendance</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="HM">
+            <featureDescription>Health Care Management</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <feature featureCode="VM">
+            <featureDescription>Vendor Management</featureDescription>
+            <featureAmount>100.0</featureAmount>
+        </feature>
+        <planLimit planLimitCode="JOB-POSTS">
+            <planLimitDescription>JOB Posting</planLimitDescription>
+            <credits>100</credits>
+        </planLimit>
+        <planLimit planLimitCode="EMPLOYEE-COUNT">
+            <planLimitDescription># of employees in the system</planLimitDescription>
+            <credits>100</credits>
+        </planLimit>
+        <planLimit planLimitCode="BC-COUNT">
+            <planLimitDescription># of background checks allowed in the system
+            </planLimitDescription>
+            <credits>10</credits>
+        </planLimit>
+        <planLimit planLimitCode="VM-COUNT">
+            <planLimitDescription># of Vendors allowed in the system
+            </planLimitDescription>
+            <credits>10</credits>
+        </planLimit>
+        <planLimit planLimitCode="HC-COUNT">
+            <planLimitDescription># of health care management integration allowed in the system
+            </planLimitDescription>
+            <credits>100</credits>
+        </planLimit>
+    </plan>
+</plans>
